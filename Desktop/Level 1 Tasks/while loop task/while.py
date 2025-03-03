@@ -23,6 +23,7 @@ while True:
         total += user_input
         count_input += 1
 
+# output the appropriate error message
     except ValueError:
         print("Invalid input. Please enter a valid number.")
 
